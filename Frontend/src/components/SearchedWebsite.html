@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engine</title>
+    <link rel="stylesheet" href="SearchedWebsite.css">
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay muted loop class="video-background">
+        <source src="../videos/background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Search Container -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Enter your search query...">
+        <button onclick="performSearch()">Search</button>
+    </div>
+
+    <!-- Results Container -->
+    <div id="searchResults"></div>
+
+    <script type="module" src="../index.js"></script>
+</body>
+</html> 

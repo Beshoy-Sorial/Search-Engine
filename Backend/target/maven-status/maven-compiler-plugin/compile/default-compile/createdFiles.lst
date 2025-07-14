@@ -1,0 +1,10 @@
+com\example\Backend\SeedUrls\SeedUrlService.class
+com\example\Backend\SeedUrls\SeedUrl.class
+com\example\Backend\BackendApplication.class
+com\example\Backend\Crawler\Crawler.class
+com\example\Backend\SeedUrls\SeedUrlController.class
+com\example\Backend\SeedUrls\SeedUrlRepository.class
+com\example\Backend\RobotsChecking\RobotsChecker.class
+com\example\Backend\Crawler\CrawlerRepository.class
+com\example\Backend\Crawler\CrawlerController.class
+com\example\Backend\Crawler\CrawlerService.class

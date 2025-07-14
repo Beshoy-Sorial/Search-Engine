@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="icon" type="image/x-icon" href="../Images/Spongebob.png">
+    <link rel="stylesheet" href="../CSS/SearchedWebsite.css">
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay muted loop class="video-background">
+        <source src="../Videos/BackgroundVideo1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div id="loading"">
+        Loading...
+    </div>
+
+    <!-- Search Container -->
+    <div class="search-container">
+        <input type="text" id="searchInput" class="SearchQuery" placeholder="Enter your search query...">
+        <button class="UpSearchButton" onclick="performSearch()">Search</button>
+    </div>
+
+    <!-- Results Container -->
+    <div id="searchResults">
+    </div>
+
+    <script src="../JavaScript/SearchedWebsites.js"></script>
+</body>
+</html>
